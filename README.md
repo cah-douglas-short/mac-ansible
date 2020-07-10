@@ -2,7 +2,7 @@ mac-ansible
 ===========
 
 I use this project to configure my macOS the way I like it. That way I can wipe
-and re-install with less effort. See my
+and re-install with less effort.
 
 Getting Started
 ---------------
