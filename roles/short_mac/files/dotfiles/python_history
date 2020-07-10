@@ -1,0 +1,93 @@
+_HiStOrY_V2_
+import keyword
+keyword.kwlist
+quit()
+42 % 10
+x=1+2*3-8/4
+print x
+print (x)
+x = int(98.6)
+print (x)
+name = input("Enter your name")
+Doug
+print("Hello " name)
+name = input("Enter your name ")
+Doug
+print("Hello " name)
+print("Hello " + name)
+hrs = input("Enter Hours: ")
+35
+rate = input("Enter Rate: ")
+2.75
+print("Gross Pay = " + (hrs * rate))
+hrs = input("Enter Hours: ")
+35
+rate = input("Enter Rate: ")
+2.75
+pay=float(hrs)*float(rate)
+print("Pay:", pay)
+quit
+quit()
+astr = 'Hello Bob'
+istr = int(astr)
+astr = 'Hello Bob'
+istr = 0
+try:
+istr = int(astr)
+quit()
+def thing():
+print('Hello')
+print('There')
+def thing():
+    print('Hello')
+print('There')
+def thing():
+    print('Hello')
+print('There')
+def func(x):
+    print(x)
+func(10)
+func(20)
+def stuff():
+    print('Hello')
+    return
+    print('World')
+stuff()
+def greet(lang):
+    if lang == 'es':
+        return 'Hola'
+    elif lang == 'fr':
+        return 'Bonjour'
+    else:
+        return 'Hello'
+print(greet('fr'),'Michael')
+def addtwo(a, b):
+    added = a + b
+    return a
+x = addtwo(2, 7)
+print(x)
+quit()
+tot = 0
+for i in [5,4,3,2,1]:
+    tot = tot + 1
+print(tot)
+zork = 0
+for thing in [9,41,12,3,74,15]:
+    zork = zork + thing
+print('After', zork)
+smallest_so_far = -1
+for the_num in [9,41,12,3,74,15]:
+    if the_num < smallest_so_far :
+       smallest_so_far = the_num
+print(smallest_so_far)
+if smallest is None :
+n = 0
+while n > 0:
+    print('Lather')
+    print('Rinse')
+print('Dry off!')
+quit()
+exit
+quit
+EOF
+exit()

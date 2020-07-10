@@ -1,0 +1,826 @@
+: 1593010411:0;ln -s ~/.dotfiles/src/zsh_history .zsh_history
+: 1593010462:0;rm .viminfo
+: 1593010480:0;ln -s ~/.dotfiles/src/viminfo .viminfo
+: 1593010507:0;mv .ssh .ssh.old
+: 1593010520:0;ln -s ~/.dotfiles/src/ssh .ssh
+: 1593010556:0;rm -f .ssh.old
+: 1593010560:0;rm -rf .ssh.old
+: 1593010597:0;git status
+: 1593010614:0;cat .gitignore
+: 1593010650:0;git status
+: 1593010674:0;git clean -n
+: 1593010942:0;git clean -d
+: 1593010955:0;git clean -nd
+: 1593010971:0;git clean -n
+: 1593010978:0;git clean -i
+: 1593011018:0;git status
+: 1593011038:0;git add src/scripts
+: 1593011042:0;git status
+: 1593011109:0;git add src/z
+: 1593011111:0;git status
+: 1593011311:0;ln -s scripts/anyconnect anyconnect
+: 1593011315:0;git status
+: 1593011458:0;ln -s scripts/condarc condarc
+: 1593011467:0;ln -s scripts/gitattributes gitattributes
+: 1593011476:0;ln -s scripts/gitignore gitignore
+: 1593011485:0;ln -s scripts/python_history python_history
+: 1593011492:0;ln -s scripts/rediscli_history rediscli_history
+: 1593011500:0;ln -s scripts/shell.pre-oh-my-zsh shell.pre-oh-my-zsh
+: 1593011508:0;ln -s scripts/tmux.conf tmux.conf
+: 1593011545:0;ln -s scripts/vimrc vimrc
+: 1593011556:0;ln -s scripts/vim_mru_files vim_mru_files
+: 1593011562:0;ln -s scripts/viminfo viminfo
+: 1593011601:0;ln -s scripts/zcompdump-LOH085W55QNHTD6-5.7.1 zcompdump-LOH085W55QNHTD6-5.7.1
+: 1593011615:0;ln -s scripts/zsh_history zsh_history
+: 1593011618:0;git status
+: 1593011661:0;git commit -m "backing up dotfiles `date +'Y%Y-%m-%d %h:%M:%S'`"
+: 1593011670:0;git status
+: 1593011929:0;cat backup
+: 1593011941:0;code --list-extensions --show-versions
+: 1593012048:0;cat settings.json
+: 1593012224:0;mv .vscode .vscode.keep
+: 1593012272:0;ln -fsn $HOME/.dotfiles/src/vscode .vscode
+: 1593012305:0;ln -fsn $HOME/.dotfiles/src/virtualenvs .virtualenvs
+: 1593012366:0;ln -fsn $HOME/.dotfiles/src/IdentityService .IdentityService
+: 1593012380:0;ln -fsn $HOME/.dotfiles/src/SpaceVim .SpaceVim
+: 1593012391:0;ln -fsn $HOME/.dotfiles/src/SpaceVim.d .SpaceVim.d
+: 1593012412:0;ln -fsn $HOME/.dotfiles/src/anaconda .anaconda
+: 1593012426:0;ln -fsn $HOME/.dotfiles/src/android .android
+: 1593012435:0;ln -fsn $HOME/.dotfiles/src/aws .aws
+: 1593012467:0;ln -fsn $HOME/.dotfiles/src/cisco .cisco
+: 1593012479:0;ln -fsn $HOME/.dotfiles/src/conda .conda
+: 1593012487:0;ln -fsn $HOME/.dotfiles/src/cups .cups
+: 1593012496:0;ln -fsn $HOME/.dotfiles/src/docker .docker
+: 1593012523:0;ln -fsn $HOME/.dotfiles/src/gem .gem
+: 1593012538:0;ln -fsn $HOME/.dotfiles/src/gsutil .gsutil
+: 1593012551:0;ln -fsn $HOME/.dotfiles/src/hammerspoon .hammerspoon
+: 1593012573:0;ln -fsn $HOME/.dotfiles/src/ipynb_checkpoints .ipynb_checkpoints
+: 1593012588:0;ln -fsn $HOME/.dotfiles/src/ipython .ipython
+: 1593012601:0;ln -fsn $HOME/.dotfiles/src/jupyter .jupyter
+: 1593012610:0;ln -fsn $HOME/.dotfiles/src/kube .kube
+: 1593012618:0;ln -fsn $HOME/.dotfiles/src/local .local
+: 1593012630:0;ln -fsn $HOME/.dotfiles/src/macbook-setup .macbook-setup
+: 1593012643:0;ln -fsn $HOME/.dotfiles/src/minikube .minikube
+: 1593012650:0;ln -fsn $HOME/.dotfiles/src/mono .mono
+: 1593012658:0;ln -fsn $HOME/.dotfiles/src/npm .npm
+: 1593012671:0;ln -fsn $HOME/.dotfiles/src/oh-my-zsh .oh-my-zsh
+: 1593012683:0;ln -fsn $HOME/.dotfiles/src/oracle_jre_usage .oracle_jre_usage
+: 1593012696:0;ln -fsn $HOME/.dotfiles/src/putty .putty
+: 1593012707:0;ln -fsn $HOME/.dotfiles/src/pyenv .pyenv
+: 1593012735:0;ln -fsn $HOME/.dotfiles/src/scripts .scripts
+: 1593012752:0;ln -fsn $HOME/.dotfiles/src/sonarlint .sonarlint
+: 1593012770:0;ln -fsn $HOME/.dotfiles/src/swt .swt
+: 1593012782:0;ln -fsn $HOME/.dotfiles/src/templateengine .templateengine
+: 1593012794:0;ln -fsn $HOME/.dotfiles/src/terminfo .terminfo
+: 1593012806:0;ln -fsn $HOME/.dotfiles/src/terraform.d .terraform.d
+: 1593012814:0;ln -fsn $HOME/.dotfiles/src/tldrc .tldrc
+: 1593012827:0;ln -fsn $HOME/.dotfiles/src/tmux .tmux
+: 1593012839:0;ln -fsn $HOME/.dotfiles/src/vagrant.d .vagrant.d
+: 1593012861:0;ln -fsn $HOME/.dotfiles/src/vim_back .vim_back
+: 1593012876:0;ln -fsn $HOME/.dotfiles/src/vim_runtime .vim_runtime
+: 1593012903:0;ln -fsn $HOME/.dotfiles/src/vs-kubernetes .vs-kubernetes
+: 1593012922:0;rm -rf .vscode.keep
+: 1593014803:0;nslookup ldec0609gnpct08.cardinalhealth.net
+: 1593014834:0;cat config-disks.yml
+: 1593014917:0;nslookup ldec0609gnpct08.cardinalhealth.net
+: 1593014926:0;cat tanium-status.yml
+: 1593015005:0;mkdir roles
+: 1593015022:0;mkdir sudoers
+: 1593015036:0;mkdir tasks
+: 1593015186:0;ssh ldec0609gnpct02
+: 1593015773:0;mkdir tanium
+: 1593015780:0;mkdir tasks
+: 1593015794:0;mv ../../../tanium-status.yml .
+: 1593015798:0;cat tanium-status.yml
+: 1593015871:0;cp -p ../../sudoers/tasks/main.yml .
+: 1593015876:0;vi main.yml
+: 1593015949:0;nslookup ldec0609gnpct08.cardinalhealth.net
+: 1593015960:0;cat genpct-dev.yml
+: 1593016000:0;mkdir config-disks
+: 1593016005:0;mkdir tasks
+: 1593016018:0;mv ../../../config-disks.yml .
+: 1593016051:0;cp -p ../../sudoers/tasks/main.yml .
+: 1593016099:0;cat inventory/hosts.yml
+: 1593016150:0;ansible -m ping genpct-dev
+: 1593016224:0;ssh ldec0609gnpct02
+: 1593016265:0;mkdir sssd
+: 1593016282:0;mkdir tasks
+: 1593016300:0;mkdir files handlers
+: 1593016582:0;cp -p ../../sudoers/tasks/main.yml .
+: 1593016857:0;mkdir cloud-repo
+: 1593016878:0;mkdir cloud-repo/tasks
+: 1593016893:0;mkdir cloud-repo/files
+: 1593016955:0;chmod 755 cloud-repo/files/cloud_repo_setup.sh
+: 1593017377:0;ssh ldec0609gnpct08
+: 1593017460:0;cat genpct-dev.yml
+: 1593017478:0;cat roles/config-disks/tasks/config-disks.yml
+: 1593017772:0;ansible-playbook genpct-dev.yml --check
+: 1593018043:0;cat roles/config-disks/tasks/config-disks.yml
+: 1593018060:0;ansible-playbook genpct-dev.yml --tags diskConfig --check
+: 1593018892:0;ansible-playbook -i genpct-dev get-ec2-meta.yml
+: 1593019842:0;cat get-ec2-meta.yml
+: 1593019849:0;rm -f get-ec2-meta.yml
+: 1593019981:0;ansible-playbook -i genpct-dev cleancron.yml --check
+: 1593020253:0;cat cleancron.yml
+: 1593020356:0;ansible-playbook -i genpct-dev cleancron.yml --check
+: 1593020649:0;ansible-playbook cleancron.yml --check
+: 1593020669:0;ansible-playbook cleancron.yml 
+: 1593020826:0;ansible-playbook cleancron.yml --check
+: 1593020843:0;ansible-playbook cleancron.yml 
+: 1593022785:0;cp -p cleancron.yml crontab.yml
+: 1593023099:0;ansible-playbook crontab.yml --check
+: 1593023297:0;ansible-playbook crontab.yml 
+: 1593023448:0;cat cleancron.yml
+: 1593023520:0;mkdir roles/clean-cron
+: 1593023534:0;mkdir roles/clean-cron/tasks
+: 1593023545:0;rm -f cleancron.yml
+: 1593023557:0;mv crontab.yml roles/clean-cron/tasks/.
+: 1593023631:0;cp roles/cloud-repo/tasks/main.yml roles/clean-cron/tasks/.
+: 1593023914:0;ssh ldec0609gnpct09
+: 1593023995:0;ssh ldec0609gnpct10
+: 1593024170:0;cp -p roles/config-disks/tasks/config-disks.yml .
+: 1593024320:0;ansible-playbook config-disks.yml
+: 1593026002:0;ansible-playbook config-disks.yml --check
+: 1593026387:0;cat config-disks.yml
+: 1593026682:0;ansible-playbook config-disks.yml --check
+: 1593027404:0;ansible-playbook config-disks.yml
+: 1593028607:0;cp config-disks.yml roles/config-disks/tasks/.
+: 1593028905:0;mkdir roles/yum
+: 1593028912:0;mkdir roles/yum/tasks
+: 1593029112:0;cp -p roles/config-disks/tasks/main.yml roles/yum/tasks/.
+: 1593029192:0;cat inventory/hosts.yml
+: 1593029216:0;ansible-playbook genpct-dev.yml --check
+: 1593029314:0;cat sudoers.yml
+: 1593029476:0;mkdir vars
+: 1593029484:0;vi vars/main.yml
+: 1593029564:0;ansible-playbook genpct-dev.yml --check
+: 1593029784:0;mv handlers ../.
+: 1593029793:0;ansible-playbook genpct-dev.yml --check
+: 1593029828:0;ansible-playbook genpct-dev.yml
+: 1593030020:0;cat genpct-dev.yml
+: 1593030051:0;ansible-playbook genpct-dev.yml
+: 1593030303:0;ansible-playbook genpct-dev.yml --tags cloud-repo-copy
+: 1593030319:0;ansible-playbook genpct-dev.yml --tags cloud-repo-exec
+: 1593030391:0;cat genpct-dev.yml
+: 1593030408:0;ansible-playbook genpct-dev.yml --tags yum-patch-all
+: 1593030422:0;ansible-playbook genpct-dev.yml 
+: 1593030501:0;ansible-playbook genpct-dev.yml --tags cleancron
+: 1593030639:0;ansible-playbook genpct-dev.yml --role clean-cron
+: 1593030659:0;ansible-playbook genpct-dev.yml --role roles/clean-cron
+: 1593030721:0;ansible-playbook genpct-dev.yml --tags cron-check
+: 1593030732:0;ansible-playbook genpct-dev.yml --tags cron-root
+: 1593030745:0;ansible-playbook genpct-dev.yml
+: 1593030778:0;vi inventory/hosts.yml
+: 1593030802:0;ansible-playbook genpct-dev.yml
+: 1593030853:0;ansible-playbook genpct-dev.yml --tags cloud-repo-copy
+: 1593030914:0;ansible-playbook genpct-dev.yml --tags cloud-repo-exec
+: 1593030963:0;ansible-playbook genpct-dev.yml --tags cloud-repo-copy
+: 1593031144:0;ansible-playbook genpct-dev.yml --tags cloud-repo-exec
+: 1593031282:0;ansible-playbook genpct-dev.yml --tags yum-patch-all
+: 1593031427:0;ssh ldec0609gnpct09
+: 1593031632:0;mv files ../.
+: 1593031638:0;cat sssd.yml
+: 1593031657:0;ansible-playbook genpct-dev.yml --tags sssd
+: 1593031720:0;ssh ldec0609gnpct10
+: 1593032493:0;ssh ldec0609gnpct02
+: 1593032523:0;ssh ldec0609gnpct10
+: 1593032577:0;ssh ldec0609gnpct08
+: 1593032623:0;ssh ldec0609gnpct09
+: 1593032952:0;vi ../.gitignore
+: 1593088756:0;ssh lpec0509dfiap01.cardinalhealth.net
+: 1593088852:0;mkdir scripts
+: 1593088895:0;chmod 755 sysmon.sh
+: 1593092794:0;git clone https://github.com/square/maximum-awesome.git
+: 1593092972:0;? cd ..
+: 1593095217:0;~/projects/scripts/aws-creds.sh
+: 1593101231:0;sudo gem install colorls
+: 1593109444:0;diff ~/.vim/bundle ~/.vim.bak/bundle
+: 1593109598:0;tar -cvf - . | (cd ~/.vim/ ; tar -xvf -)
+: 1593109615:0;source ~/.zshrc
+: 1593109621:0;source ~/.vimrc
+: 1593109856:0;source ~/.zshrc
+: 1593110703:0;cat SpaceVim.vim
+: 1593111517:0;mv ~/Downloads/iterm-master/xcodedark.vim .
+: 1593111799:0;rake uninstall
+: 1593111884:0;mv .vim.bak .vim
+: 1593111954:0;rm -rf maximum-awesome
+: 1593112032:0;mv ~/Downloads/iterm-master/xcode*.vim .
+: 1593112152:0;chmod 644 xcode*
+: 1593112264:0;rm -f xcode*
+: 1593112865:0;mv ~/Downloads/iterm-master/one.vim .
+: 1593113004:0;dos2unix one.vim > one-mod.vim
+: 1593113100:0;mv one.vim ~/Downloads/iterm-master/.
+: 1593113109:0;cp -p one-mod.vim one.vim
+: 1593113251:0;cp ~/Downloads/iterm-master/vim-mods/xcodedark.vim .
+: 1593113270:0;dos2unix xcodedark.vim xcodedark-mod.vim
+: 1593113289:0;dos2unix xcodedark.vim > xcodedark-mod.vim
+: 1593113301:0;rm -f xcodedark.vim
+: 1593113309:0;mv xcodedark-mod.vim xcodedark.vim
+: 1593113452:0;rm -f one-mod.vim
+: 1593113456:0;rm -f one.vim
+: 1593113466:0;rm -f xcodedark.vim
+: 1593115170:0;set -o vi
+: 1593115175:0;kubectl config unset current-context
+: 1593115189:0;clear
+: 1593115242:0;source ~/.zshrc
+: 1593115933:0;git pull rebase
+: 1593116125:0;git status
+: 1593116177:0;git remote -v
+: 1593116197:0;git config -l
+: 1593116333:0;git mergetool
+: 1593116361:0;git fetch origin
+: 1593116368:0;git pull origin master
+: 1593116437:0;git config -l
+: 1593116537:0;git remote -v
+: 1593116556:0;git commit -m "backup SpaceVim"
+: 1593116564:0;git pull origin master
+: 1593116568:0;git push
+: 1593116579:0;git status
+: 1593116615:0;git add *
+: 1593116625:0;git status
+: 1593116644:0;git commit -m "backup SpaceVim"
+: 1593116649:0;git pull
+: 1593116653:0;git push
+: 1593116667:0;git status
+: 1593116712:0;vi .gitignore
+: 1593116980:0;vi ansible.cfg
+: 1593118334:0;gcloud compute snapshots list --filter="name~ldil0219grcdb01" --project corp-sap-np-cah
+: 1593118954:0;gcloud compute disks list --filter="name~ldil0219grcdb01" --project corp-sap-np-cah 
+: 1593119077:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1593119210:0;gcloud compute disks create ldil0219grcdb01-boot-disk-1-restored-from-snap-25062020 --source-snapshot ldil0219grcdb01-boot --zone us-central1-a --project corp-sap-np-cah
+: 1593119383:0;gcloud compute instances attach-disk ldil0219grcdb01 --disk ldil0219grcdb01-boot-disk-1-restored-from-snap-25062020 --zone us-central1-a --project corp-sap-np-cah --boot
+: 1593119542:0;ssh shodou06@ldil0219grcdb01.cardinalhealth.net
+: 1593119814:0;gcssh superman@ldil0219grcdb01 --internal-ip --project corp-sap-np-cah --zone us-central1-a
+: 1593119859:0;gcssh batman@ldil0219grcdb01 --internal-ip --project corp-sap-np-cah --zone us-central1-a
+: 1593172439:0;gcloud compute disks list --filter="name~ldil0219grcdb01" --project corp-sap-np-cah 
+: 1593173855:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-boot-disk-1-restored-from-snap-25062020 --zone us-central1-a --project corp-sap-np-cah
+: 1593173913:0;gcloud compute instances attach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1593173962:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1593173971:0;gcloud compute instances attach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah --boot
+: 1593174130:0;gcssh batman@ldil0219grcdb01 --internal-ip --project corp-sap-np-cah --zone us-central1-a
+: 1593174245:0;ssh shodou06@ldil0219grcdb01.cardinalhealth.net
+: 1593182978:0;gcloud compute instances list --format='table(name,status,tags.list())' --project onbase-pr-cah
+: 1593183017:0;gcloud compute instances list --format='table(name,status,labels.list())' --project onbase-pr-cah
+: 1593183480:0;gcloud compute instances list --format='table(name,status,labels.list())' --project onbase-pr-cah | grep patchgroup
+: 1593184396:0;gcloud compute instances describe wpec5009xdm01 --project xerox-prt-pr-cah | grep "deletionProtection"
+: 1593184480:0;gcloud compute instances list --format='table(name)' --project xerox-prt-pr-cah | grep "deleteProtection"
+: 1593184689:0;gcloud compute instances list  --project xerox-prt-pr-cah
+: 1593184713:0;gcloud compute instances list  --project xerox-prt-pr-cah | grep "deleteProtection"
+: 1593184731:0;gcloud compute instances describe  --project xerox-prt-pr-cah | grep "deleteProtection"
+: 1593184822:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk {print $1}
+: 1593184860:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk '{print $1}'
+: 1593185276:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk -F '{print $1}'
+: 1593185373:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk '{print $1}' | head -n 1
+: 1593185394:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk '{print $1}' | head -n -1
+: 1593185489:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}'
+: 1593185515:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}'
+: 1593185776:0;for i in `gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last {last=$0}' | awk '{print $1}'`\
+do\
+gcloud compute instances describe $i | grep "deleteProtection"\
+done
+: 1593185926:0;for i in `gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}'`\
+do\
+gcloud compute instances describe $i | grep "deleteProtection"\
+done
+: 1593185986:0;for i in `gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}'`\
+do\
+gcloud compute instances describe $i --project xerox-prt-pr-cah | grep "deleteProtection"\
+done
+: 1593186058:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}'
+: 1593186121:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}'
+: 1593186158:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, print $2}'
+: 1593186191:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}' '{print $2}'
+: 1593186205:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}' | awk '{print $2}'
+: 1593186322:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}'
+: 1593186687:0;for i z in `gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}'`\
+do\
+gcloud compute instances describe $i --project xerox-prt-pr-cah --zone $z | grep "deleteProtection"\
+done
+: 1593187107:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}' | while read var1 var2\
+do\
+echo $var1 $var2\
+done
+: 1593187149:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}' 
+: 1593187158:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}'  | wc -l
+: 1593187301:0;gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}' | while read var1 var2\
+do\
+gcloud compute instances describe $var1 --zone $var2 --project xerox-prt-pr-cah | grep "deleteProtection"\
+done
+: 1593187640:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{ split($1, ver, /[.a-z]/); print ver[1], ver[2] }'
+: 1593187652:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{ split($1, ver, /[a-z]/); print ver[1], ver[2] }'
+: 1593187710:0;gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{ split($1, ver, /[a-z]/); print ver[1], ver[2] }'
+: 1593187730:0;gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{ split($2, ver, /[a-z]/); print ver[1], ver[2] }'
+: 1593187898:0;gcloud compute instances list --project xerox-prt-pr-cah | set -- `awk -F, 'NR>2 { print $NF; next } {last=$NF } END { print last }'`
+: 1593187938:0;gcloud compute instances list --project xerox-prt-pr-cah | set -- `awk -F, 'NR>2 { print $NF; next } {last=$NF } END { print last }'` firstvar=$1 lastvar=$2
+: 1593190553:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593190593:0;gcloud compute instances describe wpec5009xdm01 --project xerox-prt-pr-cah --format=json
+: 1593190737:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}'
+: 1593190759:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}' --format=json
+: 1593190772:0;gcloud compute instances list  --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1, $2}'
+: 1593191878:0;gcloud compute instances list --project xerox-prt-pr-cah --format=json
+: 1593193061:0;./gcpDelProtection.py xerox-prt-pr-cah
+: 1593193075:0;python gcpDelProtection.py
+: 1593193260:0;gcloud compute instances list --project xerox-prt-pr-cah --format=json > xerox-prt-pr-instances.json
+: 1593193653:0;python gcpDelProtection.py
+: 1593437579:0;python del.py
+: 1593437737:0;python del.py xerox-prt-pr-cah
+: 1593437823:0;python del.py
+: 1593437839:0;python del.py xerox-prt-pr-cah
+: 1593438789:0;python del.py
+: 1593439127:0;python del.py xerox-prt-pr-cah
+: 1593439146:0;python del.py --project xerox-prt-pr-cah
+: 1593439193:0;python del.py --project xerox-prt-pr-cah -h
+: 1593439232:0;mkdir tmp 
+: 1593439243:0;mkdir logs
+: 1593439261:0;touch logs/del.log
+: 1593439268:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593439289:0;cat logs/del.log
+: 1593439530:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593439565:0;python ExampleScript.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593443633:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593443658:0;gcloud compute instances list --project xerox-prt-pr-cah --format=json
+: 1593443780:0;python del.py
+: 1593444177:0;python del.py https://www.googleapis.com/compute/v1/projects/xerox-prt-pr-cah/zones/us-central1-c/instances/wpec5009xwsdb02
+: 1593444656:0;python del.py --project xerox-prt-pr-cah
+: 1593444668:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593456495:0;pip3 install 2to3
+: 1593456592:0;cp ~/projects/GCP/cld-gcp-app-stacks/dshort-test/scripting-stuff/python/del.py .
+: 1593456612:0;2to3 del.py -n -w -o del3.py
+: 1593456828:0;diff del.py ../del.py
+: 1593456894:0;vi del.py
+: 1593456925:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593456952:0;cp ~/tmp/del3.py/del.py .
+: 1593456955:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593457369:0;python del.py --project xerox-prt-pr-cah
+: 1593457522:0;gcloud compute instances list
+: 1593457543:0;gcloud config list
+: 1593457564:0;gcloud compute projects list
+: 1593457582:0;gcloud compute instances list --project -h
+: 1593457625:0;python del.py --project xerox-prt-pr-cah
+: 1593458753:0;python del.py -D --project xerox-prt-pr-cah
+: 1593459085:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593459156:0;python del.py -D --project xerox-prt-pr-cah
+: 1593459217:0;cat logs/del.log
+: 1593459376:0;>logs/del.log
+: 1593459394:0;cat del.log
+: 1593459399:0;tail -f del.log
+: 1593459409:0;python del.py --project xerox-prt-pr-cah
+: 1593459635:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593459645:0;cat del.log
+: 1593459784:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593459844:0;echo $USERPROFILE
+: 1593459854:0;echo $HO
+: 1593459857:0;echo $HOME
+: 1593459877:0;python del.py --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593459947:0;python del.py -v --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593522982:0;set -o vi
+: 1593524327:0;cat ~/.zshrc | grep -i highlight && echo "HIGHLIGHTED"
+: 1593524349:0;cat ~/.zshrc | grep HIGHLIGHT
+: 1593524735:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1593524776:0;gcloud compute instances attach-disk ldil0219grcdb01 --disk ldil0219grcdb01-boot-disk-1-restored-from-snap-25062020 --zone us-central1-a --project corp-sap-np-cah --boot
+: 1593524871:0;nslookup pg12p1mq01.cardinalhealth.net
+: 1593527119:0;python del.py -v --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593527554:0;ssh ldec0909ebsap01
+: 1593530660:0;gcloud beta compute ssh ldec5009helpr01 --internal-ip --project corp-sap-np-cah --zone us-central1-a
+: 1593531053:0;nslookup ldec5009helpr01
+: 1593531068:0;ssh ldec5009helpr01
+: 1593531614:0;nslookup 10.49.40.41
+: 1593534664:0;rm del.py
+: 1593534681:0;rm -rf del3.py
+: 1593534694:0;cp ~/projects/GCP/cld-gcp-app-stacks/dshort-test/scripting-stuff/python/del.py .
+: 1593534707:0;mkdir p3
+: 1593534759:0;mkdir p2
+: 1593534764:0;mv del.py p2/.
+: 1593534785:0;2to3 p2 -n -w -o p3
+: 1593534915:0;gcal projects list
+: 1593534928:0;gcloud projects list
+: 1593535204:0;python get_instance_data_gcloud.py
+: 1593535234:0;cp get_instance_data_gcloud.py ~/tmp/p2
+: 1593535247:0;rm -f del.py
+: 1593535261:0;2to3 p2 -n -w -o p3
+: 1593535287:0;python get_instance_data_gcloud.py
+: 1593535318:0;vi get_instance_data_gcloud.py
+: 1593535384:0;python get_instance_data_gcloud.py
+: 1593535400:0;vi get_instance_data_gcloud.py
+: 1593535433:0;python get_instance_data_gcloud.py
+: 1593535448:0;vi get_instance_data_gcloud.py
+: 1593535507:0;python get_instance_data_gcloud.py
+: 1593535513:0;vi get_instance_data_gcloud.py
+: 1593535540:0;python get_instance_data_gcloud.py
+: 1593535554:0;vi get_instance_data_gcloud.py
+: 1593535593:0;python get_instance_data_gcloud.py
+: 1593535607:0;vi get_instance_data_gcloud.py
+: 1593535698:0;python get_instance_data_gcloud.py
+: 1593535760:0;vi get_instance_data_gcloud.py
+: 1593535787:0;python get_instance_data_gcloud.py
+: 1593535919:0;cat ~/tmp/p3/get_instance_data_gcloud.py
+: 1593536094:0;gcloud projects list --format json > gcp_proj.json
+: 1593536273:0;gcloud projects list --format="csv(projectNumber, name)" | grep 379496245206
+: 1593536315:0;gcloud projects list --format="json(projectNumber, name)" | grep 379496245206
+: 1593536513:0;gcloud projects list --format="json" --filter="projectId AND projectNumber"
+: 1593536531:0;gcloud projects list --format="json" --filter="projectId AND projectNumber" | grep 379496245206
+: 1593538581:0;gcloud projects list --format="csv(projectNumber, projectId)" | grep 379496245206
+: 1593538618:0;gcloud projects list --format="json(projectNumber, projectId)" | grep 379496245206
+: 1593538651:0;gcloud projects list --format="json(projectId, projectNumber)" | grep 379496245206
+: 1593538949:0;gcloud projects list --format="json(projectId, projectNumber)" | grep xerox-prt-pr-cah
+: 1593539082:0;python python3_get_instance_data_gcloud.py
+: 1593540133:0;gccup
+: 1593540228:0;for i in $(gcloud projects list | awk '{print $1}' | awk 'NR>1'); do echo PROJECT: $i && echo "--" && gcloud compute instances list --project=$i --filter="(tags.items:allowaccess)" && echo ""; done\
+
+: 1593540327:0;for i in $(gcloud projects list | awk '{print $1}' | awk 'NR>1'); do echo PROJECT: $i && echo "--" && gcloud compute instances list --project=$i --filter="(deleteProtection: False)" && echo ""; done\
+
+: 1593540803:0;gcloud projects list --format='json' | jq '.[] | select (.projectId | test ("xerox-prt-pr-cah)) | .projectId'
+: 1593546992:0;nslookup 10.51.34.87
+: 1593546998:0;nslookup 10.51.34.107
+: 1593547045:0;ssh 10.51.34.87
+: 1593548684:0;gcloud projects list --format='json'
+: 1593548699:0;gcloud projects list
+: 1593550388:0;gcloud compute instances list --format json --project xerox-prt-pr-cah
+: 1593550818:0;set -o vi
+: 1593550839:0;python del.py -v --project xerox-prt-pr-cah --logfile /Users/douglas.short/tmp/logs/del.log
+: 1593551452:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593551629:0;gcloud compute instances list --project xerox-prt-pr-cah | grep projectId
+: 1593551655:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593551713:0;gcloud compute instances list --project xerox-prt-pr-cah --format json 
+: 1593551851:0;gcloud compute instances list ----format json --project xerox-prt-pr-cah --filter projectId
+: 1593551871:0;gcloud compute instances list ----format json --project xerox-prt-pr-cah --filter="projectId"
+: 1593552159:0;gcloud compute instances list ----format json --project xerox-prt-pr-cah --filter="name=''"
+: 1593552329:0;for i in `gcloud compute instances list --project xerox-prt-pr-cah | awk 'NR>2 {print last} {last=$0}' | awk '{print $1}'`\
+do\
+gcloud compute instances describe $i --project xerox-prt-pr-cah | grep "deleteProtection"\
+done
+: 1593552558:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{print $1}'
+: 1593552572:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{print $1, $2}'
+: 1593552952:0;gcloud compute instances list --project xerox-prt-pr-cah --format json --filter=selfLink
+: 1593552980:0;gcloud compute instances list --project xerox-prt-pr-cah --format json --filter='selfLink'
+: 1593606635:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah
+: 1593610736:0;python3 -m tabnanny gcp_instance_data.py
+: 1593611265:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah
+: 1593611602:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -d ~/tmp
+: 1593611826:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah
+: 1593611836:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -vv
+: 1593611859:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -d ~/tmp
+: 1593611872:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -d /Users/douglas.short/tmp/
+: 1593613427:0;~/projects/scripts/aws-creds.sh
+: 1593613492:0;aws ec2 describe-volumes -profile cah-np-ent --filters Name=tag:Name,Values=*gnpct*
+: 1593613508:0;aws ec2 describe-volumes --profile cah-np-ent --filters Name=tag:Name,Values=*gnpct*
+: 1593613515:0;aws ec2 describe-volumes --profile cah-np-ent
+: 1593613596:0;aws ec2 describe-volumes --profile cah-np-ent --filters Name=tag:Name,Values=*GNPCT*
+: 1593613673:0;aws ec2 describe-volumes --profile cah-np-ent --filters Name=tag:Name,Values=LDEC0609GNPCT* --query "Volumes[*].{ID:VolumeId,Tag:Tags}"
+: 1593613782:0;aws ec2 describe-volumes --profile cah-np-ent --filters Name=LDEC0609GNPCT*
+: 1593613925:0;aws ec2 describe-volumes --profile cah-np-ent --filters Name=tag: Name,Values=LDEC0609GNPCT* --query "Volumes[*].{ID:VolumeId,Tag:Tags}"
+: 1593614040:0;aws ec2 describe-instances --filters "Name=tag-value,Values=EIT-NEXTGENFINANCE-AWS" --profile cah-np-ent
+: 1593614068:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Tag:Tags}"
+: 1593614160:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encryption}"
+: 1593614170:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted}"
+: 1593614181:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Tag:Encrypted}"
+: 1593614224:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Tag:Encrypted}" > gnpct-ebs-vols.json
+: 1593614416:0;vi gnpct-ebs-vols.json
+: 1593614590:0;mv gnpct-ebs-vols.json "OneDrive - Cardinal Health/dougShort/CAH-Projects/CORA-CA/."
+: 1593614651:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeName,Tag:Encrypted}"
+: 1593614681:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{Name:Name,Tag:Encrypted}"
+: 1593614770:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{Tag:Name,Tag:Encrypted}"
+: 1593614836:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Name:Name,Tag:Encrypted}"
+: 1593614861:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Tag:Name,Tag:Encrypted}"
+: 1593615358:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Name:Name,Tag:Encrypted}"
+: 1593615438:0;export AWS_DEFAULT_OUTPUT="table"
+: 1593615443:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Name:Name,Tag:Encrypted}"
+: 1593615473:0;aws ec2 describe-instances --filters "Name=tag-value,Values=EIT-NEXTGENFINANCE-AWS" --profile cah-np-ent
+: 1593615700:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Tag:Encrypted}"
+: 1593615722:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted}"
+: 1593615852:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Name:Name}"
+: 1593615878:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Name=tag:Name}"
+: 1593615893:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Name: tag:Name}"
+: 1593615983:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,tag:Name}"
+: 1593616067:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,attachment.device:Name}"
+: 1593616114:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Device:Name}"
+: 1593616148:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Attachment.Device:Name}"
+: 1593616174:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,Attachment-Device:Name}"
+: 1593616180:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,Encrypted:Encrypted,AttachmentDevice:Name}"
+: 1593616374:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,InstanceId:Attachments[0].InstanceId,Encrypted:Encrypted}"
+: 1593616734:0;for i in `aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,InstanceId:Attachments[0].InstanceId,Encrypted:Encrypted}"` \
+do\
+aws ec2 describe-instances | awk '{print $3}'\
+done
+: 1593616773:0;aws ec2 describe-volumes --profile cah-np-ent --filters "Name=tag:Name,Values=LDEC0609GNPCT*" --query "Volumes[*].{ID:VolumeId,InstanceId:Attachments[0].InstanceId,Encrypted:Encrypted}"
+: 1593622586:0;python3 del.py
+: 1593622610:0;python3 del.py --project xerox-prt-pr-cah
+: 1593622921:0;gcloud compute instances list --project xerox-prt-pr-cah --format json
+: 1593622963:0;python3 del.py --project xerox-prt-pr-cah
+: 1593623156:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah
+: 1593623798:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -vvv
+: 1593624382:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah -DEBUG
+: 1593624396:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah --DEBUG
+: 1593625224:0;gcloud projects list | awk '{print $1}' | awk 'NR>1'); do echo PROJECT: $i
+: 1593625241:0;gcloud projects list | awk '{print $1}' | awk 'NR>1'; do echo PROJECT: $i
+: 1593625252:0;gcloud projects list | awk '{print $1}' 
+: 1593625270:0;gcloud projects list 
+: 1593625289:0;gcloud projects list | awk '{print $1}' 
+: 1593625369:0;âƒ½¯ for i in $(gcloud projects list | awk '{print $1}' | awk 'NR>1'); do echo PROJECT: $i && echo "--" && gcloud compute instances list --project=$i --filter="(deleteProtection: False)" && echo ""; done
+: 1593625478:0;gcloud projects list --format json 
+: 1593625616:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593625627:0;gcloud compute instances list --project xerox-prt-pr-cah --format json
+: 1593626442:0;gcloud compute instances describe "https://www.googleapis.com/compute/v1/projects/xerox-prt-pr-cah/zones/us-central1-c/instances/wpec5009xwsdb02"
+: 1593628073:0;gcloud compute instances list --project xerox-prt-pr-cah --format json
+: 1593629997:0;gcloud compute instances describe wpec5009xwsdb02 --project xerox-prt-pr-cah --format json
+: 1593630020:0;gcloud compute instances describe wpec5009xwsdb02 --project xerox-prt-pr-cah --format json --zone us-central1-c
+: 1593630098:0;gcloud compute instances list --project xerox-prt-pr-cah
+: 1593630220:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{print $1, $2}'
+: 1593630256:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{NR>1}' |awk '{print $1, $2}'
+: 1593630273:0;gcloud compute instances list --project xerox-prt-pr-cah | awk '{print NR>1}' |awk '{print $1, $2}'
+: 1593630341:0;gcloud compute instances describe wpec5009xwsdb02 --project xerox-prt-pr-cah --format json --zone us-central1-c
+: 1593630772:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah --DEBUG
+: 1593630822:0;python3 gcp_instance_data.py --project xerox-prt-pr-cah
+: 1593630834:0;python3 gcp_instance_data.py 
+: 1593695509:0;diff cah-vm-update.py ~/projects/GCP/cld-gcp-shared-dm-types/management-cah/cah-vm.py
+: 1593697293:0;gcloud deployment-manager deployments update cyberark-phase2-prd --config iam-pr-cyberark-phase2-prd.yml --project iam-pr-cah --preview
+: 1593697883:0;gcloud deployment-manager deployments cancel-preview --config iam-pr-cyberark-phase2-prd.yml --project iam-pr-cah
+: 1593697905:0;gcloud deployment-manager deployments cancel-preview --project iam-pr-cah
+: 1593697932:0;gcloud deployment-manager deployments cancel-preview iam-pr-cyberark-phase2-prd.yml --project iam-pr-cah
+: 1593698012:0;gcloud deployment-manager deployments cancel-preview cyberark-phase2-prd --project iam-pr-cah
+: 1593698112:0;gcloud deployment-manager deployments update cyberark-phase2-prd --config iam-pr-cyberark-phase2-prd.yml --project iam-pr-cah --preview
+: 1593698135:0;gcloud deployment-manager deployments cancel-preview cyberark-phase2-prd --project iam-pr-cah
+: 1593698148:0;gcloud deployment-manager deployments update cyberark-phase2-prd --config iam-pr-cyberark-phase2-prd.yml --project iam-pr-cah
+: 1593699375:0;gcloud compute firewall-rules create aea-med-data-intg-svc-pr-camstar-boomi --flags-file="/Users/douglas.short/projects/GCP/cld-gcp-app-stacks/data-intg-svc/firewall-rules/prod/aea-med-data-intg-svc-pr-camstar-boomi.yml"
+: 1593700949:0;mkdir sandbox
+: 1593700991:0;mv ~/projects/GCP/cld-gcp-app-stacks/dshort-test/scripting-stuff .
+: 1593701006:0;mv ~/projects/GCP/cld-gcp-app-stacks/dshort-test/terraform .
+: 1593701020:0;git status
+: 1593701039:0;vi .gitignore
+: 1593701092:0;git status
+: 1593701112:0;git commit -m "creating sandbox - untracked"
+: 1593701118:0;git commit -am "creating sandbox - untracked"
+: 1593701124:0;git pull
+: 1593701127:0;git push
+: 1593701135:0;git status
+: 1593714493:0;nslookup wpec5009pimap01
+: 1593714507:0;nslookup wpec5009pimdb01
+: 1594040190:0;vi ~/.zshrc
+: 1594040290:0;source ~/.zshrc
+: 1594057857:0;cat inventory/hosts.yml
+: 1594058071:0;ansible -m ping genpct-stg
+: 1594058095:0;nslookup lsec0409gnpct11
+: 1594058116:0;nslookup lsec0409gnpct12
+: 1594058122:0;nslookup lsec0409gnpct11
+: 1594058735:0;ssh -i cah-prod-ent-cloudteam.pem ec2-user@10.18.43.74
+: 1594060207:0;ssh -i cah-prod-ent-cloudteam.pem ec2-user@10.18.55.20
+: 1594060727:0;nslookup lsec0409gnpct11
+: 1594060734:0;ssh -i cah-prod-ent-cloudteam.pem ec2-user@10.18.43.74
+: 1594060778:0;ansible -m ping genpct-stg
+: 1594060811:0;ansible -m setup genpct-stg
+: 1594062304:0;ansible-playbook roles/ec2-base/tasks/main.yml --limit 'genpct-stg'
+: 1594063097:0;nslookup lsec0409gnpct11
+: 1594063120:0;nslookup lsec0409gnpct12
+: 1594063345:0;ssh douglas.short@lsec0409gnpct11
+: 1594123819:0;ssh pa-douglas.short@lqec5008boomi11.appzone.dmz
+: 1594124215:0;ssh douglas.short@lsec0409gnpct11
+: 1594124412:0;ssh pa-douglas.short@lqec5008boomi11.appzone.dmz
+: 1594124636:0;ssh douglas.short@lsec0409gnpct12
+: 1594124780:0;ssh douglas.short@lpec0909wmap03
+: 1594125045:0;ssh douglas.short@lpec0909wmmif03
+: 1594128940:0;ssh shodou06@ldil0219grcdb01.cardinalhealth.net
+: 1594129534:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1594129688:0;gcloud compute instances attach-disk ldec5009helpr01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1594129714:0;ssh douglas.short@ldec5009helpr01
+: 1594129779:0;gcssh batman@ldec5009helpr01 --internal-ip --project corp-sap-np-cah --zone us-central1-a
+: 1594131362:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-11-system --zone us-central1-a --project corp-sap-np-cah
+: 1594131391:0;gcloud compute instances detach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk11-system --zone us-central1-a --project corp-sap-np-cah
+: 1594131413:0;gcloud compute instances attach-disk ldec5009helpr01 --disk ldil0219grcdb01-disk11-system --zone us-central1-a --project corp-sap-np-cah
+: 1594131768:0;gcloud compute instances detach-disk ldec5009helpr01 --disk ldil0219grcdb01-disk11-system --zone us-central1-a --project corp-sap-np-cah
+: 1594131783:0;gcloud compute instances attach-disk ldec5009helpr02 --disk ldil0219grcdb01-disk11-system --zone us-central1-a --project corp-sap-np-cah
+: 1594132261:0;gcloud compute instances detach-disk ldec5009helpr01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah
+: 1594132302:0;gcloud compute instances attach-disk ldil0219grcdb01 --disk ldil0219grcdb01-disk-1-a4bd60-ggnywy --zone us-central1-a --project corp-sap-np-cah --boot
+: 1594132933:0;brew install colordiff
+: 1594133172:0;vi ~/.zshrc
+: 1594133208:0;colordiff
+: 1594133234:0;diff genpct-dev.yml genpct-stg.yml
+: 1594133247:0;source ~/.zshrc
+: 1594133250:0;diff genpct-dev.yml genpct-stg.yml
+: 1594133264:0;source ~/.zshrc
+: 1594133454:0;cat ~/.zshrc
+: 1594135179:0;nslookup 10.18.111.0
+: 1594139620:0;nslookup ws.fedex.com
+: 1594140993:0;ssh shodou06@ldil0219grcdb01.cardinalhealth.net
+: 1594141058:0;ssh douglas.short@ldil0219grcdb01
+: 1594141134:0;ssh douglas.short@10.49.33.153
+: 1594141262:0;vi ~/.zshrc
+: 1594141480:0;ssh shodou06@ldil0219grcdb01.cardinalhealth.net
+: 1594146003:0;gcloud compute firewall-rules create aia-corp-iam-pr-def-solarwinds-db --flags-file="/Users/douglas.short/projects/GCP/cld-gcp-app-stacks/iam/firewall-rules/prod/aia-corp-iam-pr-def-solarwinds-db.yml"
+: 1594209531:0;gccup
+: 1594210678:0;pip list
+: 1594211490:0;vi gcp-hosts.yml
+: 1594212869:0;strings credstore2
+: 1594212955:0;vi credentials.db
+: 1594212970:0;cat config_default
+: 1594212988:0;cat gce
+: 1594213040:0;cat .last_update_check.json
+: 1594213050:0;cat active_config
+: 1594213127:0;env | grep -i credentials
+: 1594213224:0;gcloud iam service-accounts list
+: 1594215444:0;gcloud compute instances list --project blue-prism-pr-cah
+: 1594215558:0;gcloud compute instances describe wpec0459bprun25-us --project blue-prism-pr-cah
+: 1594215980:0;gcloud compute instances describe wpec0459bprun25-us --project blue-prism-pr-cah | grep node-group
+: 1594216007:0;gcloud compute sole-tenancy node-groups list --project blue-prism-pr-cah
+: 1594216035:0;gcloud compute sole-tenancy node-groups describe blue-prism-pr-ng-asia-southeast1-a --project blue-prism-pr-cah
+: 1594216377:0;gcloud compute sole-tenancy node-groups describe blue-prism-pr-ng-asia-southeast1-a --project blue-prism-pr-cah --zone asia-southeast1-a
+: 1594216476:0;gcloud compute instances describe wpec0459bprun25-us --project blue-prism-pr-cah
+: 1594216995:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1
+: 1594217017:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1 --project blue-prism-pr-cah
+: 1594217040:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1 --project blue-prism-pr-cah --zone asia-southeast1-a
+: 1594217065:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1 --project blue-prism-pr-cah --zones asia-southeast1-a
+: 1594217092:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1 --project blue-prism-pr-cah --region asia-southeast1-a
+: 1594217101:0;gcloud compute sole-tenancy node-templates describe blue-prism-pr-node-template-1 --project blue-prism-pr-cah --region asia-southeast1
+: 1594217297:0;gcloud compute sole-tenancy node-groups list --project blue-prism-pr-cah
+: 1594217327:0;gcloud compute sole-tenancy node-groups describe blue-prism-pr-ng-asia-southeast1-a --project blue-prism-pr-cah --zone asia-southeast1-a
+: 1594219667:0;brew list 
+: 1594219696:0;mkdir go
+: 1594219710:0;vi ~/.zshrc
+: 1594219779:0;source ~/.zshrc
+: 1594219823:0;mkdir src bin
+: 1594219853:0;export PATH=$PATH:$(go env GOPATH)/bin
+: 1594219895:0;brew install go
+: 1594219977:0;brew install dep
+: 1594220002:0;vi bin/.go
+: 1594220395:0;go env
+: 1594226947:0;cat config
+: 1594226966:0;cat id_rsa.pub
+: 1594226998:0;cat google_compute_engine.pub
+: 1594227067:0;set -o vi
+: 1594227079:0;ansible -m setup genpct-stg
+: 1594227383:0;ansible -m setup genpct-stg | grep -i disk
+: 1594227415:0;ansible -m setup genpct-stg | grep -i device
+: 1594228370:0;ansible-playbook check-disks.yml --limit 'genpact-stg'
+: 1594228389:0;ansible-playbook check-disks.yml --limit 'genpct-stg'
+: 1594228899:0;ansible -m setup genpct-stg | grep -i device
+: 1594229242:0;ansible-playbook check-disks.yml --limit 'genpct-stg'
+: 1594233760:0;set -o vi
+: 1594233766:0;ssh lpec0509dfiap01.cardinalhealth.net
+: 1594234169:0;ssh lpec0509dfidb01.cardinalhealth.net
+: 1594234207:0;set -o vi
+: 1594234218:0;ssh lpec0509dfidb01.cardinalhealth.net
+: 1594241050:0;ip addr
+: 1594241053:0;ifconfig
+: 1594242235:0;cat config
+: 1594242242:0;cat credentials
+: 1594242249:0;vi credentials
+: 1594242355:0;vi config
+: 1594242485:0;aws s3api list-buckets --bucket cah-ngf-s3-bucket-nprd --profile ngf-bucket
+: 1594242515:0;aws s3api list-buckets --profile ngf-bucket
+: 1594242879:0;aws s3api get-bucket-location --bucket cah-ngf-s3-bucket-nprd --profile ngf-bucket
+: 1594243076:0;aws s3api get-bucket-policy --bucket cah-ngf-s3-bucket-nprd --profile ngf-bucket
+: 1594243205:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://Users/douglas.short/tmp/ngf-bucket-policy.json --profile ngf-bucket
+: 1594243252:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://ngf-bucket-policy.json --profile ngf-bucket
+: 1594243325:0;aws s3api get-bucket-policy --bucket cah-ngf-s3-bucket-nprd --query Policy --output text > currentpolicy.json --profile ngf-bucket
+: 1594243526:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://currentpolicy.json --profile ngf-bucket
+: 1594244838:0;cat ~/.aws/credentials
+: 1594245552:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://currentpolicy.json --profile ngf-bucket --debug
+: 1594245823:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://currentpolicy.json --profile ngf-bucket --debug > aws-cli-output.txt
+: 1594246399:0;cat ~/.aws/credentials
+: 1594246412:0;cat ~/.aws/config
+: 1594246436:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://currentpolicy.json --profile ngf-bucket --debug
+: 1594246595:0;cat ~/.aws/credentials | grep ngf
+: 1594246603:0;cat ~/.aws/credentials
+: 1594246816:0;aws s3 cli ls --profile ngf-bucket
+: 1594246826:0;aws s3api list-buckets --profile ngf-bucket
+: 1594246856:0;aws s3 ls --profile ngf-bucket
+: 1594246988:0;aws s3api get-bucket-policy --bucket cah-ngf-s3-bucket-nprd --query Policy --profile ngf-bucket
+: 1594247243:0;aws s3api get-bucket-policy-status --bucket cah-ngf-s3-bucket-nprd --profile ngf-bucket
+: 1594247342:0;aws s3api get-bucket-policy --bucket cah-ngf-s3-bucket-nprd --query Policy --profile ngf-bucket
+: 1594248255:0;aws s3api get-bucket-policy --bucket cah-ngf-s3-bucket-nprd --query Policy --output text > current-notprincipal.json --profile ngf-bucket
+: 1594248790:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://current-notprincipal.json --profile ngf-bucket --debug
+: 1594248979:0;ssh ldec0609gnpct01
+: 1594249117:0;cat ~/.aws/credentials
+: 1594249146:0;cat ~/.aws/config
+: 1594250850:0;vi current-notprincipal.json
+: 1594250865:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://current-notprincipal.json --profile ngf-bucket --debug
+: 1594252547:0;ssh ldec0609gnpct01
+: 1594254082:0;aws --version
+: 1594254449:0;aws s3api put-bucket-policy --bucket cah-ngf-s3-bucket-nprd --policy file://current-notprincipal.json --profile ngf-bucket --debug
+: 1594298911:0;ssh ldec0609gnpct01
+: 1594304152:0;ssh lsec0409gnpct11
+: 1594309446:0;ssh lsec5009mftcc01
+: 1594309597:0;gcssh batman@lsec5009mftcc01 --internal-ip --project ent-axhip-pr-cah --zone us-central1-a
+: 1594310092:0;nslookup lsoh0019axgov02
+: 1594311704:0;nslookup lsec0409gnpctlb.stg.Cardinalhealth.net
+: 1594313165:0;ssh lsec0409gnpct11
+: 1594315696:0;ssh -i sophos-phi-useast1.pem loginuser@10.18.145.38
+: 1594315722:0;chmod 600 sophos-phi-useast1.pem
+: 1594315723:0;ssh -i sophos-phi-useast1.pem loginuser@10.18.145.38
+: 1594326217:0;ssh lsec0409gnpct11
+: 1594326527:0;nslookup 10.50.38.55
+: 1594326536:0;ssh 10.50.38.55
+: 1594326695:0;ssh shodou06@10.50.38.55
+: 1594388395:0;ssh lsec0409gnpct11
+: 1594388446:0;ssh ldec0909dfiap01
+: 1594388462:0;set -o vi
+: 1594388473:0;ssh lpec0509dfiap01.cardinalhealth.net
+: 1594389598:0;vi os-setup-script.sh
+: 1594389866:0;brew list
+: 1594391852:0;gccup
+: 1594393987:0;git clone https://github.com/cah-douglas-short/sublime_text_3_settings.git
+: 1594394117:0;mv User User.10jul2020
+: 1594394209:0;ln -s /Users/douglas.short/projects/Personal/my_env/sublime_text_3_settings User
+: 1594394262:0;cat delete_lines.py
+: 1594394476:0;grep ignore_package *
+: 1594394484:0;grep -R ignore_package *
+: 1594394581:0;vi sublack.sublime-settings
+: 1594394632:0;grep -R chainz *
+: 1594394661:0;vi Ansible.sublime-completions
+: 1594394674:0;vi Ansible.sublime-settings
+: 1594394684:0;vi Default\ \(OSX\).sublime-keymap
+: 1594394701:0;vi Default\ \(OSX\).sublime-mousemap
+: 1594394715:0;vi Git\ Commit\ Message.sublime-completions
+: 1594394789:0;vi HTML.sublime-settings
+: 1594394802:0;vi HTML\ \(Jinja2\).sublime-settings
+: 1594394808:0;vi JSX.sublime-settings
+: 1594394823:0;vi JavaScript.sublime-settings
+: 1594394831:0;vi LaTeXTools.sublime-settings
+: 1594394848:0;vi Markdown.sublime-completions
+: 1594394863:0;vi OmniMarkupPreviewer.sublime-settings
+: 1594394878:0;vi Package\ Control.last-run
+: 1594394893:0;vi Package\ Control.sublime-settings
+: 1594394968:0;vi Preferences.sublime-settings
+: 1594395227:0;vi Python.sublime-settings
+: 1594395239:0;vi Ruby.sublime-settings
+: 1594395248:0;vi RustFmt.sublime-settings
+: 1594395267:0;vi SQL\ Beautifier.sublime-settings
+: 1594395286:0;vi Shell-Unix-Generic.sublime-settings
+: 1594395307:0;vi SublimeLinter.sublime-settings
+: 1594395328:0;vi sublack.sublime-settings
+: 1594395357:0;vi User.sublime-commands
+: 1594395369:0;vi XML.sublime-settings
+: 1594395380:0;vi YAML.sublime-settings
+: 1594395388:0;vi delete_lines.py
+: 1594395404:0;vi find_under_prev.py
+: 1594395418:0;vi fonts.py
+: 1594395432:0;vi last_view.py
+: 1594395452:0;vi python_interpret.py
+: 1594395467:0;vi select_column.py
+: 1594395478:0;vi toggle_gutter.py
+: 1594395524:0;cat 01524fae79697630d0454ba3fabd9414.info
+: 1594395533:0;grep -R chainz *
+: 1594395554:0;grep -R chainz * | more
+: 1594395586:0;grep -R /Users/chainz *
+: 1594395704:0;cat Preferences.sublime-settings
+: 1594395744:0;vi Preferences.sublime-settings
+: 1594396521:0;cat pyvenv.cfg
+: 1594396535:0;git clone https://github.com/cah-douglas-short/mac-ansible.git
+: 1594396565:0;mv adam_mac short_mac
+: 1594396583:0;cat Chainz.terminal
+: 1594396611:0;mv Chainz.terminal Short.terminal
+: 1594396618:0;cat com.googlecode.iterm2.plist
+: 1594396664:0;cat github_ssh_host_key
+: 1594396681:0;cat ansible.cfg
+: 1594396686:0;cat gitconfig
+: 1594396705:0;vi gitconfig
+: 1594396744:0;cat .gitconfig
+: 1594397479:0;vi gitignore_global
+: 1594397503:0;cat .gitignore
+: 1594397672:0;vi gitconfig
+: 1594397733:0;cp .gitconfig .gitconfig.10jul2020
+: 1594397777:0;cp ~/projects/Personal/my_env/mac-ansible/roles/short_mac/files/dotfiles/gitconfig .gitconfig
+: 1594397781:0;cat .gitconfig
+: 1594397787:0;git status
+: 1594397816:0;vi .gitconfig
+: 1594397835:0;vi gitconfig
+: 1594397864:0;cp ~/projects/Personal/my_env/mac-ansible/roles/short_mac/files/dotfiles/gitignore_global .
+: 1594397881:0;mv .gitignore .gitignore.10jul2020
+: 1594397907:0;vi mrconfig
+: 1594397964:0;rm mrconfig
+: 1594397970:0;vi pypirc
+: 1594397985:0;rm -f pypirc
+: 1594397998:0;vi config
+: 1594398019:0;cat config
+: 1594398105:0;cat ansible.cfg
+: 1594398119:0;cat karabiner.json
+: 1594398143:0;grep -R /Users/chainz *
+: 1594398151:0;grep -R adam *
+: 1594398165:0;grep -R /Users/chainz *
+: 1594398173:0;vi config
+: 1594398198:0;cat innotop.conf
+: 1594398256:0;cat 00-imports.py
+: 1594398328:0;rm -rf innotop ipython
+: 1594398331:0;tree ssh
+: 1594398338:0;cat ssh/config
+: 1594398358:0;cat two-heads.cow
+: 1594398371:0;cat github_ssh_host_key
+: 1594398402:0;rm -f github_ssh_host_key
+: 1594398416:0;vi main.yml
+: 1594398589:0;brew list > homebrewpackages.txt
+: 1594398596:0;cat homebrewpackages.txt
+: 1594399736:0;rm -f homebrewpackages.txt
+: 1594399741:0;brew cask list
+: 1594399999:0;python --version
+: 1594400124:0;pip --version
+: 1594400183:0;pip list
+: 1594400651:0;gem query --local
+: 1594401194:0;vi app_settings.yml
+: 1594401472:0;cat app_settings.yml
+: 1594401491:0;vi basic_settings.yml
+: 1594401533:0;vi cron.yml
+: 1594401580:0;vi dotfiles.yml
+: 1594401671:0;vi installs.yml
+: 1594401790:0;vi main.yml
+: 1594401869:0;cat os-setup-script.sh
+: 1594402050:0;cp ~/projects/Personal/dotfiles/src/zshrc .
+: 1594402073:0;cp ~/.zsh_history .

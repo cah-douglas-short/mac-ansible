@@ -1,0 +1,42 @@
+# cd into a directory by name
+#shopt -s autocd
+
+# Aliases
+alias ll="ls -al"  # List all files in current directory in long list format
+alias ls='ls -la'
+alias ..='cd ..'
+alias o="open ."   # Open the current directory in Finder
+
+# Git
+alias ga='git add'
+alias gaa='git add .'
+alias gaaa='git add -A'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gac='git add -A && git commit'
+
+# Git branch in prompt
+function parse_git_branch() {
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+# change command prompt
+export PS1="\u \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
+# Make sure /usr/local/bin has precedence over /usr/bin for python3
+export PATH=/usr/local/bin:$PATH
+# added by Anaconda3 2019.10 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/douglas.short/opt/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/douglas.short/opt/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/douglas.short/opt/anaconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/douglas.short/opt/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda init <<<

@@ -1,0 +1,76 @@
+[user]
+    name = Doug Short
+    email = douglas.short@cardinalhealth.com
+
+[core]
+    autocrlf = input
+    editor = vim
+    excludesfile = ~/.gitignore_global
+    filemode = false
+    ignorecase = false
+
+[color]
+    interactive = auto
+    ui = auto
+
+[credential]
+    helper = cache --timeout=3600
+
+[interactive]
+    singlekey = true
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[push]
+    default = simple
+    followTags = true
+
+[merge]
+    conflictstyle = diff3
+    tool = kdiff3
+
+[alias]
+    add-unmerged = "!f() { git diff --name-status --diff-filter=U | cut -f2 ; }; git add `f`"
+    c = commit
+    ca = commit -a
+    cm = commit -m
+    cam = commit -am
+    co = checkout
+    d = diff
+    dc = diff --cached
+    edit-staged = "!f() { git diff --name-status --staged | cut -f2 ; }; /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl `f`"
+    edit-unmerged = "!f() { git diff --name-status --diff-filter=U | cut -f2 ; }; /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl `f`"
+    ffmerge = merge --ff-only
+    forkdiff = !bash -c 'git diff $(git merge-base "$1" "$2") "$2" "${@: 3}" ' -
+    ign = ls-files -o -i --exclude-standard
+    l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    new = !sh -c 'git log $1@{1}..$1@{0} "$@"'
+    s = status
+    st = stash
+
+[hub]
+    protocol = ssh
+[diff]
+	noprefix = true
+[difftool]
+    prompt = false
+[pull]
+	rebase = false
+[web]
+    browser = google-chrome
