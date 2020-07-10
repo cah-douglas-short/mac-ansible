@@ -8,7 +8,7 @@
     weekday: ''
     month: ''
   loop:
-  - SHELL=/bin/bash
+  - SHELL=/bin/zsh
   - HOME={{ ansible_env.HOME }}
 
 - name: clean up projects

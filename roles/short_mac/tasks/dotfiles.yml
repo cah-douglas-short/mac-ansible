@@ -12,8 +12,24 @@
     path: '~/.{{ item }}'
     state: link
   loop:
-  - config/karabiner
   - config/yamllint/config
-  - gitconfig
-  - gitignore_global
-  - ansible.cfg
+  - CFUserTextEncoding
+  - DS_Store
+  - Xauthority
+  - anyconnect
+  - bash_profile
+  - bashrc
+  - boto
+  - condarc
+  - fzf.bash
+  - fzf.zsh
+  - p10k.zsh
+  - python_history
+  - rediscli_history
+  - shell.pre-oh-my-zsh
+  - tmux.conf
+  - vim_mru_files
+  - viminfo
+  - vimrc
+  - zsh_history
+  - zshrc
